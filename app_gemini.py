@@ -14,7 +14,7 @@ try:
  # 3. Llamada directa al servicio de modelos
         response = client.models.generate_content(
         model="gemini-3-flash-preview",
-        contents="Preséntate brevemente como un asistente de IA configurado para apoyar el curso de 'Desarrollo de aplicaciones con IA.'"
+        contents="Hola! soy una IA que te va a ayudar con el curso de 'Desarrollo de aplicaciones con IA.' dime, en que te puedo ayudar hoy"
  )
 
         print("\n--- Respuesta Recibida ---")
@@ -25,3 +25,4 @@ except Exception as e:
         print(f"❌ Ocurrió un error en la conexión: {e}")
 if __name__ == "__main__":
         ejecutar_consulta()
+
